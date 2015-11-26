@@ -39,3 +39,5 @@ could break something?
 Now that you have your workspace set up, what do you want to try using Git for?
 
     For example for insert a comment to every commit of my file.
+
+Teniamo tutto il file aggiungendo una frase carina
