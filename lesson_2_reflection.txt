@@ -1,0 +1,27 @@
+-What happens when you initialize a repository? Why do you need to do it?
+
+	When you initialize a repository will be created a new empty directory .git that will contain all the history of your files.
+
+-How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	It's a sort of "intermediate status" that allows you to think before saving a file's version, for example to be sure to have a commit per logical change.
+
+-How can you use the staging area to make sure you have one commit per logical change?
+
+	You can save a provvisorial version of a file in the staging area and then make other changes to this version in the working area. At the end of this further update, you can decide if you want to commit this final version or the perevious one that is saved on the staging area.
+
+-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	For example it can be useful when more than one person work on the same file. Every person can modify the original version of the file autonomously and then, with the branches, save his personal history of the file. 
+
+-How do the diagrams help you visualize the branch structure?
+
+	They give you a rapid and intuitive idea of a file's history.
+
+-What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Merging two braches together gives you the possibility to join two different updates of a file made in two different branches. It's part of the history of a file so it must be represented in the diagram.
+
+-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges manually?
+
+	The pros are that it takes into account of every additions that were made in the different branches and it deletes every row of a file that was cancelled in at least a branch, to avoid compatibility problems. The cons are that it not always corresponds to what we think to do with merge and it not always avoids compatibility problems.
