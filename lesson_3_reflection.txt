@@ -7,4 +7,9 @@ local?
 automatically stay up-to-date with your remote repository?
 
   Because for example you might want to share some changes but not others.
+  
+-Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+  Branches are different parts of a repository that contain different history of a file. Clone is a function that allows   you to copy a local repository in another local repository or copy a remote repository in a local repository. Fork       instead is a function that allows you to copy a remote repository directly in another remote repository.
 
