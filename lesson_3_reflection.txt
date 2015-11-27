@@ -2,3 +2,9 @@
 local?
 
   When you want to share you repository with other people in a simple mode.
+
+-Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+  Because for example you might want to share some changes but not others.
+
